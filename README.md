@@ -6,6 +6,7 @@ This project utilizes the Depth Anything V2 model to perform real-time depth est
 2. **Colored Depth Output**: Takes an input image and outputs a colored depth map.
 3. **Grayscale Depth Output**: Takes an input image and outputs a grayscale depth map.
 
+
 ## Requirements
 
 To run this project, you need to install the following Python packages. You can use `pip` to install them. A `requirements.txt` file is provided for your convenience:
@@ -17,11 +18,13 @@ opencv-python
 torch
 torchvision
 
+
 To install the dependencies, run:
 
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## Pre-trained Models
 
@@ -51,6 +54,8 @@ wget -O checkpoints/depth_anything_v2_vits.pth https://huggingface.co/depth-anyt
 wget -O checkpoints/depth_anything_v2_vitb.pth https://huggingface.co/depth-anything/Depth-Anything-V2-Base/resolve/main/depth_anything_v2_vitb.pth?download=true
 
 wget -O checkpoints/depth_anything_v2_vitl.pth https://huggingface.co/depth-anything/Depth-Anything-V2-Large/resolve/main/depth_anything_v2_vitl.pth?download=true
+````
+
 
 ## Use
 
@@ -81,6 +86,7 @@ python gray_scale_depth_out.py
 ```
 Again, ensure your input image is correctly specified in the script.
 
+
 ## Model Configuration
 
 The model supports several encoders. You can choose from the following options:
@@ -91,6 +97,7 @@ The model supports several encoders. You can choose from the following options:
     •	vitg
 
 The encoder can be selected by changing the encoder variable in the script.
+
 
 ## Output
 
