@@ -3,8 +3,16 @@
 This project utilizes the Depth Anything V2 model to perform real-time depth estimation using a webcam or to process static images. The code provides three main functionalities:
 
 1. **Real-time Camera Depth Map**: Captures video from the webcam and displays the depth map in real time.
-2. **Colored Depth Output**: Takes an input image and outputs a colored depth map.
-3. **Grayscale Depth Output**: Takes an input image and outputs a grayscale depth map.
+   <img width="1024" alt="Screenshot 2024-10-15 at 13 35 00" src="https://github.com/user-attachments/assets/9f7f3521-06ad-4ad1-ac8a-473869321525">
+3. **Colored Depth Output**: Takes an input image and outputs a colored depth map.
+   ![depth_colored_map](https://github.com/user-attachments/assets/72aaf72b-7689-4300-9042-81a8ac7c5142)
+5. **Grayscale Depth Output**: Takes an input image and outputs a grayscale depth map.
+   ![depth_map](https://github.com/user-attachments/assets/9e43f9d4-fa21-4164-a6eb-01f2b5ef3896)
+
+
+
+
+
 
 
 ## Requirements
