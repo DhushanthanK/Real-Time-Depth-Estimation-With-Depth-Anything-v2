@@ -9,12 +9,6 @@ This project utilizes the Depth Anything V2 model to perform real-time depth est
 5. **Grayscale Depth Output**: Takes an input image and outputs a grayscale depth map.
    ![depth_map](https://github.com/user-attachments/assets/9e43f9d4-fa21-4164-a6eb-01f2b5ef3896)
 
-
-
-
-
-
-
 ## Requirements
 
 To run this project, you need to install the following Python packages. You can use `pip` to install them. A `requirements.txt` file is provided for your convenience:
